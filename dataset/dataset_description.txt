@@ -1,0 +1,38 @@
+
+--Jute Variety Dataset Description--
+
+The Jute Variety Dataset comprises a total of 4,906 high-resolution images of raw jute fibers, 
+systematically categorized into four major classes: Bangladeshi White, Kenaf, Mesta, and Tossa. 
+Each main class is divided into two sub-classes based on image acquisition method — Microscope 
+and Smartphone — enabling the capture of both microstructural details and surface-level features.
+
+--Image Acquisition--
+- Microscope Images: Captured using a Genesys Logic f12a digital microscope at approximately 
+  650x magnification, ensuring detailed internal structure visualization.
+- Smartphone Images: Taken with a Redmi Note 13 Pro Plus (200 MP camera, 2x zoom, OIS), 
+  focused on surface texture and color under consistent indoor lighting and uniform white background.
+
+All images were captured under controlled lighting conditions and manually reviewed. 
+Roughly 1,950 low-quality images were discarded due to blurriness or framing issues, 
+ensuring a clean, high-quality dataset.
+
+--Class Distribution--
+
+Main Class         | Sub-Class                    | Image Count
+------------------|------------------------------|-------------
+Bangladeshi White | Bangladeshi_White_Microscope | 565
+                  | Bangladeshi_White_Smartphone | 729
+Kenaf             | Kenaf_Microscope             | 502
+                  | Kenaf_Smartphone             | 601
+Mesta             | Mesta_Microscope             | 620
+                  | Mesta_Smartphone             | 660
+Tossa             | Tossa_Microscope             | 623
+                  | Tossa_Smartphone             | 606
+Total             |                              | 4,906
+
+--Annotations--
+- Each image is manually labeled with its class and subclass.
+- Metadata includes: image source, capture device, timestamp, and (where applicable) GPS coordinates.
+
+This dataset provides a rich, dual-perspective visual foundation for training deep learning models 
+in jute fiber variety classification using computer vision techniques.
